@@ -1,0 +1,215 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* color: white; */
+}
+body{
+    height: 60px;
+    width: 100vw;
+    background-image: url(boy\ in\ the\ bus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* background-size: contain; */
+}
+/* .container{
+    height: 60vh;
+    width: 100vw;
+    background-image: url(boy\ in\ the\ bus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    padding-top: 15px;
+    color: white;
+}
+.nav ul{
+    display: flex;
+    gap: 15px;
+}
+.nav li{
+    list-style: none;
+    /* gap: 10px; */
+}
+.heading{
+    margin-left: 50px;
+    font-size: 30px;
+    color: white;
+}
+.login1{
+    padding: 5px;
+    background-color: black;
+    height: 6vh;
+    width: 8vw;
+    border-radius: 10px;
+    color: white;
+}
+.card{
+    margin-left: 35vw;
+    margin-top: 10px;
+    height: 30vh;
+    width: 30vw;
+    border: 2px solid black;
+    padding: 30px;
+    color: white;
+    border-radius: 20px;
+    backdrop-filter: blur(0px) saturate(67%);
+    -webkit-backdrop-filter: blur(0px) saturate(67%);
+    background-color: rgba(255, 255, 255, 0.18);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.login2{
+    padding: 5px;
+    /* background-color: black; */
+    height: 5vh;
+    width: 6vw;
+    /* border-radius: 20px; */
+    /* text-align: center; */
+    color: white;
+    backdrop-filter: blur(0px) saturate(67%);
+    -webkit-backdrop-filter: blur(0px) saturate(67%);
+    background-color: rgba(255, 255, 255, 0.18);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.Tbal p{
+    font-size: 13px;
+    color: white;
+}
+.balance{
+    /* padding: 10px; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.login3{
+    padding: 5px;
+    background-color: black;
+    height: 6vh;
+    width: 8vw;
+    border-radius: 20px;
+    /* text-align: center; */
+    color: white;
+}
+.login4{
+    padding: 5px;
+    background-color: black;
+    height: 6vh;
+    width: 8vw;
+    border-radius: 20px;
+    /* text-align: center; */
+    color: white;
+}
+.recent{
+    margin-top: 20px;
+}
+.recent p{
+    font-size: 13px;
+}
+.box{
+    width: auto;
+    height: 6vh;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.spotify{
+    display: flex;
+}
+.spotify i{
+    /* justify-content: center; */
+    font-size: 32px;
+    margin-top: 10px;
+}
+.spo2{
+    margin-left: 10px;
+}
+.money h4{
+    margin-top: 10px;
+}
+.para{
+    text-align: center;
+}
+.content{
+    margin-left: 7vw;
+    width: auto;
+    margin-top: 10vh;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    /* grid-template-rows: 13px 13px 13px; */
+}
+.bx{
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    /* gap: 40px; */
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    /* background-color: grey; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; */
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.bx1{
+    background-color: rgb(202, 201, 201);
+    height: 200px;
+    border: transparent;
+}
+.bx2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    height: auto;
+    /* background-color: bisque; */
+    background-image: url(https://i.pinimg.com/736x/45/36/21/453621b62a17ff28a75a92e70db2e15a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: transparent;
+
+}
+.bx3{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    height: auto;
+    /* background-color: snow; */
+    background-image: url(https://img.freepik.com/free-photo/vertical-shot-interracial-woman-man-stand-opposite-each-other_273609-44314.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    border: transparent;
+}
+.bx4{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: auto;
+    background-image: url(https://img.freepik.com/free-photo/woman-working-laptop-white-backgorund_231208-13487.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: transparent;
+}
+.bx5{
+    height: 200px;
+    background-color: goldenrod;
+}
+.bx3 p{
+    margin-top: 90vh;
+}
+.bx5 p{
+    margin-top: 60px;
+}
+
